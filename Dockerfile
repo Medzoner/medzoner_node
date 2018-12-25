@@ -1,7 +1,3 @@
-FROM node:7
+FROM node:7.2
 
 RUN npm install -g bower karma gulp
-
-WORKDIR /project
-
-CMD ["gulp","serve"]
