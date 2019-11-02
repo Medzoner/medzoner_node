@@ -1,3 +1,3 @@
-FROM node:8.11.4
+FROM node:10.3.0
 
 RUN npm install -g bower karma gulp pm2
